@@ -13,3 +13,5 @@
 4. Create a new app inside the project
    - ''' docker-compose run --rm app sh -c "python manage.py startapp core" '''
    
+5. Run flake8 and tests
+   - ''' docker-compose run app sh -c "python manage.py test && flake8" '''
